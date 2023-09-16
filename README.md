@@ -48,3 +48,55 @@
 6. Pergunte ao jogador se deseja jogar novamente.
 
 Este exercício irá ajudá-lo a consolidar conceitos fundamentais de programação, como loops, condicionais, listas e entrada/saída de dados, enquanto cria um jogo divertido.
+
+## Tutorial com mais detalhes:
+**Título:** Jogo da Forca em Python para Iniciantes
+
+**Nível:** Iniciante
+
+**Objetivo:** Criar um jogo de adivinhação da palavra (Jogo da Forca) em Python, onde o jogador tenta adivinhar uma palavra oculta letra por letra.
+
+**Passo a Passo:**
+
+**Passo 1: Preparação**
+- **Instalação do Python:** Se o Python não estiver instalado, siga este guia para instalá-lo no seu sistema: [Guia de Instalação do Python](https://www.python.org/downloads/)
+
+- **Instalação do VSCode (Visual Studio Code):** Se você não tiver um ambiente de desenvolvimento, pode instalar o VSCode, um editor de código Python amigável: [Instalação do VSCode](https://code.visualstudio.com/)
+
+**Passo 2: Criando um Novo Projeto**
+- Abra o VSCode.
+- Crie uma nova pasta para o seu projeto em um local fácil de encontrar no seu computador.
+
+**Passo 3: Escrevendo o Código**
+- Dentro do VSCode, crie um novo arquivo chamado `jogo_da_forca.py`.
+
+**Passo 4: Definindo a Palavra Secreta**
+- Escolha uma palavra e anote-a em um papel.
+- No código, defina a palavra secreta como uma variável.
+
+**Passo 5: Desenhando a Forca**
+- Para desenhar a forca, você pode usar uma representação visual simples em texto ASCII. Copie e cole um exemplo de desenho da forca no seu código.
+
+**Passo 6: Obtendo o Palpite do Jogador**
+- No código, use a função `input()` para obter um palpite do jogador. Peça a ele para adivinhar uma letra da palavra.
+
+**Passo 7: Verificando o Palpite**
+- Crie uma estrutura de decisão para verificar se o palpite do jogador está correto.
+- Se o palpite estiver correto, atualize a palavra oculta com a letra correta revelada.
+- Se o palpite estiver errado, atualize a forca e informe ao jogador quantas tentativas restantes ele tem.
+
+**Passo 8: Repetindo o Jogo**
+- Use um loop para permitir que o jogador continue adivinhando letras até acertar a palavra ou esgotar todas as tentativas.
+- No final do jogo, exiba uma mensagem de vitória ou derrota.
+
+**Passo 9: Rodando o Jogo**
+- Execute o código no VSCode para jogar o jogo que você criou.
+
+**Passo 10: Experimentando e Melhorando**
+- Depois de terminar o projeto básico, experimente adicionar recursos extras ao jogo, como:
+   - Mensagens de início e fim mais atraentes.
+   - Gerar palavras aleatórias a partir de uma lista.
+   - Contagem de pontos ou tentativas.
+   - Gráficos ASCII mais elaborados para a forca.
+
+Lembre-se de que a prática é a chave para aprender programação, então não tenha medo de experimentar e cometer erros. Este exercício é uma ótima maneira de começar a construir uma base sólida em Python e programação em geral. Divirta-se e aproveite o processo de aprendizado!
