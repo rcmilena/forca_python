@@ -1,8 +1,8 @@
 print("Jogo da forca")
 palavra="batata"
+tracinhos = "_ " * len(palavra)
 resposta=input("Quer jogar?")
 if resposta=="s":
-    print("escolher tema")
     lista = ["""
     +---+
     |   |
@@ -20,9 +20,56 @@ if resposta=="s":
         |
         |
     =========
+    """,
+    """
+    +---+
+    |   |
+    O   |
+    |   |
+        |
+        |
+    =========
+    """,
+    """
+    +---+
+    |   |
+    O   |
+    /|   |
+        |
+        |
+    =========
+    """,
+    """
+    +---+
+    |   |
+    O   |
+    /|\  |
+        |
+        |
+    =========
+    """,
+    """
+    +---+
+    |   |
+    O   |
+    /|\  |
+    /    |
+        |
+    =========
+    """,
+    """
+     +---+
+     |   |
+     O   |
+    /|\  |
+    / \  |
+         |
+    =========
     """]
-    for item in lista:
-        print(item)  
+    print(lista[0]) 
+    print(tracinhos)
+        
+  
 elif resposta=="n":
     print("ok, até mais!")
 
